@@ -1,0 +1,55 @@
+# ==============================================================================
+# RoadGuardian AI - Core Project Dependencies
+# Video-Based Road Accident Detection and Intelligent Emergency Incident Management
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Core Deep Learning & Sequence Modeling
+# ------------------------------------------------------------------------------
+# PyTorch and Torchvision for ResNet18 feature extraction and GRU temporal sequence analysis
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ------------------------------------------------------------------------------
+# 2. Computer Vision & Video Processing
+# ------------------------------------------------------------------------------
+# OpenCV for frame extraction, sliding window manipulation, and video decoding
+opencv-python>=4.8.0
+# PIL for image transformations and snapshot persistence
+Pillow>=10.0.0
+# Ultralytics for YOLO vehicle detection (supporting module)
+ultralytics>=8.0.0
+# ByteTrack and tracking utilities
+supervision>=0.16.0
+
+# ------------------------------------------------------------------------------
+# 3. Scientific Computing, Data Wrangling & Evaluation Metrics
+# ------------------------------------------------------------------------------
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# ------------------------------------------------------------------------------
+# 4. Backend API & Asynchronous Processing
+# ------------------------------------------------------------------------------
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.4.0
+sqlalchemy>=2.0.0
+python-multipart>=0.0.6
+aiofiles>=23.2.1
+
+# ------------------------------------------------------------------------------
+# 5. Exploratory Data Analysis & Visualization
+# ------------------------------------------------------------------------------
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ------------------------------------------------------------------------------
+# 6. Development, Testing & Notebook Environment
+# ------------------------------------------------------------------------------
+pytest>=7.4.0
+black>=23.9.0
+flake8>=6.1.0
+ipykernel>=6.25.0
+notebook>=7.0.0

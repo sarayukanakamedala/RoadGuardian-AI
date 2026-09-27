@@ -1,0 +1,15 @@
+{
+    "split": "TEST",
+    "num_samples": 675,
+    "test_loss": 0.0003526555146392504,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "true_positive": 225,
+    "true_negative": 450,
+    "false_positive": 0,
+    "false_negative": 0,
+    "checkpoint": "/mnt/c/Users/Sarayu/Btech_Projects/RoadGuardian-AI/ml/artifacts/checkpoints/best_gru.pt",
+    "device": "cpu"
+}
